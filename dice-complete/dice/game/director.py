@@ -81,3 +81,7 @@ class Director:
         print(f"Your score is: {self.total_score}\n")
         self.is_playing == (self.score > 0)
 
+start_game = Director()
+start_game.get_inputs()
+start_game.do_updates()
+start_game.do_outputs()
